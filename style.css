@@ -1,0 +1,206 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* left div  */
+
+.left {
+  flex: 1;
+  height: 100%;
+  width: 20%;
+  background-color: #292d32;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.icon-container {
+  position: absolute;
+  top: 50px;
+  right: 110px;
+
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.dot-column {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+}
+
+.dot {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  background-color: #4d545a;
+  border-radius: 50%;
+  margin: 5px 0;
+  margin-right: 20px;
+}
+
+.dot1 {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  background-color: #4d545a;
+  border-radius: 50%;
+  margin: 5px 0;
+  margin-right: 20px;
+  background-color: #53d56c;
+}
+
+span {
+  font-family: Poppins;
+}
+
+.dot span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.dot1 span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.dot-label-pair {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.label {
+  color: #626c76;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* right-div */
+
+p {
+  color: #292d32;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 30px;
+}
+
+.name1 {
+  color: #292d32;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.right {
+  flex: 4;
+  height: 100%;
+  width: 80%;
+  background-color: #f5f7fa;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  width: 80%;
+  display: flex;
+  margin-bottom: 10px;
+  height: 80px;
+  align-items: center;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  padding: 15px 22px 15px 20;
+  object-fit: cover;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.name2 {
+  color: #828f9a;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+/* next button */
+
+.next-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#nextButton {
+  background-color: #6c70dc;
+  padding: 18px 28px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.dollar {
+  margin-left: auto;
+  color: #4fbf65;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.selected {
+  border: solid 1px green;
+}
+
+
